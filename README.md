@@ -3,11 +3,10 @@ amd-parse
 
 AMD-enabled version of Parse.com official JavaScript library (v. 1.2.8) https://www.parse.com/downloads/javascript/parse/latest/js
 
-Example usage with require.js
+Example of usage with require.js
 =============================
-
+<pre>
 // main.js
-
 require.config({
     paths: {
         jquery: 'libs/jquery',
@@ -24,7 +23,6 @@ require([
 );
 
 // app.js
-
 define([
     'jquery',
     'underscore',
@@ -41,4 +39,4 @@ define([
     }
 );
 
-
+</pre>
